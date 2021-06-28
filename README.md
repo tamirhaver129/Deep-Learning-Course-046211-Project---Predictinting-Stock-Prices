@@ -34,21 +34,16 @@ Using OPTUNA for tuning of hyper parameters
 Compering the results and the naive prediction (average weekly gain)
 
 Presenting the results
-# Training methods
-For our project's models we chose Adam (Adaptive Moment) as our optimizer, stepLRonPlateu as our scheduler and MSE as our loss function.
 
 # Parameters
 The hyper parameters we used OPTUNA for tuning are:
 
 Batch Size
-
-Hidden Dim
-
-Number of layers
-
+Hidden and Output Dim of GRU and LSTM
+N layers of GRU and LSTM
 Learning Rate
-
-Look Back
+Look Back – How many past weeks do we need in order to predict next week’s value.
+Factor – Scheduler’s lr scaling factor.
 
 # DATA Sources
 Nasdaq 100-values:
