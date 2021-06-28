@@ -39,10 +39,15 @@ Presenting the results
 The hyper parameters we used OPTUNA for tuning are:
 
 Batch Size
+
 Hidden and Output Dim of GRU and LSTM
+
 N layers of GRU and LSTM
+
 Learning Rate
+
 Look Back – How many past weeks do we need in order to predict next week’s value.
+
 Factor – Scheduler’s lr scaling factor.
 
 # DATA Sources
