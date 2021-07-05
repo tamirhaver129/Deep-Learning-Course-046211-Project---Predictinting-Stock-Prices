@@ -8,7 +8,7 @@ Project has been done by Roy Mahlab & Tamir Haver.
 
 # Tools 
 
-In this project we coded in the python using Jupyter Notebook.
+In this project we coded in python using Jupyter Notebook.
 
 When runnig the code on Jupyter one should run it cell by cell in the same order as it is brought in our repository.
 
