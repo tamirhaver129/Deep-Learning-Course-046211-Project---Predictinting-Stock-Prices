@@ -47,8 +47,21 @@ N layers of GRU and LSTM
 Learning Rate
 
 Look Back – How many past weeks do we need in order to predict next week’s value.
-
-Factor – Scheduler’s lr scaling factor.
+# File name	Purpsoe
+ls_dqn_main.py	general purpose main application for training/playing a LS-DQN agent
+pong_ls_dqn.py	main application tailored for Atari's Pong
+boxing_ls_dqn.py	main application tailored for Atari's Boxing
+dqn_play.py	sample code for playing a game, also in ls_dqn_main.py
+actions.py	classes for actions selection (argmax, epsilon greedy)
+agent.py	agent class, holds the network, action selector and current state
+dqn_model.py	DQN classes, neural networks structures
+experience.py	Replay Buffer classes
+hyperparameters.py	hyperparameters for several Atari games, used as a baseline
+srl_algorithms.py	Shallow RL algorithms, LS-UPDATE
+utils.py	utility functions
+wrappers.py	DeepMind's wrappers for the Atari environments
+*.pth	Checkpoint files for the Agents (playing/continual learning)
+Deep_RL_Shallow_Updates_for_Deep_Reinforcement_Learning.pdf	Writeup - theory and results
 
 # DATA Sources
 Nasdaq 100-values:
