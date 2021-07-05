@@ -52,9 +52,11 @@ Look Back – How many past weeks do we need in order to predict next week’s v
 | ---------------- |:-----------------:|
 | Prediction_FED.ipynb | Main code file including all the projects results results  |
 | optuna_search.py | Hyper parameters tuning    |
-| utils.py         | Loading the data, declaring project's models, models training, declaring obective for optuna and printing functions  | 
+| utils.py         | Loading the data, declaring project's models,
+models training, declaring obective for optuna and printing functions  | 
 | studies          | Optunas' studies results |
-| input            | The data we used for our project which includes Nasdaq-100 index values and the FED assets|  
+| input            | The data we used for our project which
+includes Nasdaq-100 index values and the FED assets|  
 
 
 # DATA Sources
