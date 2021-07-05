@@ -48,6 +48,8 @@ Learning Rate
 
 Look Back – How many past weeks do we need in order to predict next week’s value.
 # File name	Purpose
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
 |File Name     |   Purpose   |
 |ls_dqn_main.py|	general purpose main application for training/playing a LS-DQN agent |
 pong_ls_dqn.py	main application tailored for Atari's Pong
