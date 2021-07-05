@@ -52,11 +52,20 @@ Look Back – How many past weeks do we need in order to predict next week’s v
 | ---------------- |:-----------------:|
 | Prediction_FED.ipynb | Main code file including all the projects results results  |
 | optuna_search.py | Hyper parameters tuning    |
-| utils.py         | Loading the data, declaring project's models,
-models training, declaring obective for optuna and printing functions  | 
+| utils.py         | Loading the data, declaring project's models,models training, declaring obective for optuna and printing functions  | 
 | studies          | Optunas' studies results |
-| input            | The data we used for our project which
-includes Nasdaq-100 index values and the FED assets|  
+| input            | The data we used for our project which includes Nasdaq-100 index values and the FED assets|  
+# Final results for every model 
+We shall denote, t - the target closing price, p - our prediction for the closing price.
+The loss over a batch will be the MAPE – mean absolute percentage error:
+loss(p,t)=E(|p-t|/t)
+And so:
+![image](https://user-images.githubusercontent.com/66019798/124432375-3af7d080-dd7a-11eb-8da1-7ceffee9b390.png)
+# Best Model's results 
+
+
+![image](https://user-images.githubusercontent.com/66019798/124432568-71355000-dd7a-11eb-834c-96cbf28bab94.png)
+
 
 
 # DATA Sources
