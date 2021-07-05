@@ -47,6 +47,12 @@ N layers of GRU and LSTM
 Learning Rate
 
 Look Back – How many past weeks do we need in order to predict next week’s value.
+# Naive predictor
+We compared our models to a naïve predictor which predicts next week’s closing value
+based on the average weekly gain – g of the Nasdaq:
+
+p_n=t_(n-1)*g
+
 # File name	Purpose
 | File Name        | Purpose           |
 | ---------------- |:-----------------:|
