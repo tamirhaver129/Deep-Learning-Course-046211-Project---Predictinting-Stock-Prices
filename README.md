@@ -47,8 +47,9 @@ N layers of GRU and LSTM
 Learning Rate
 
 Look Back – How many past weeks do we need in order to predict next week’s value.
-# File name	Purpsoe
-ls_dqn_main.py	general purpose main application for training/playing a LS-DQN agent
+# File name	Purpose
+|File Name     |   Purpose   |
+|ls_dqn_main.py|	general purpose main application for training/playing a LS-DQN agent |
 pong_ls_dqn.py	main application tailored for Atari's Pong
 boxing_ls_dqn.py	main application tailored for Atari's Boxing
 dqn_play.py	sample code for playing a game, also in ls_dqn_main.py
