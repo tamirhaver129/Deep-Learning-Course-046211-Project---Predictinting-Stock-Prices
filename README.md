@@ -51,7 +51,7 @@ Look Back – How many past weeks do we need in order to predict next week’s v
 We compared our models to a naïve predictor which predicts next week’s closing value
 based on the average weekly gain – g of the Nasdaq:
 
-![image](https://user-images.githubusercontent.com/66019798/124433542-88c10880-dd7b-11eb-9f53-d8ab60e99ae6.png)
+![image](https://user-images.githubusercontent.com/66019798/124433684-b443f300-dd7b-11eb-9485-675c95bd5469.png)
 # File name	Purpose
 | File Name        | Purpose           |
 | ---------------- |:-----------------:|
