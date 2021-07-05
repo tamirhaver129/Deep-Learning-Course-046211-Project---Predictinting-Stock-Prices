@@ -51,8 +51,7 @@ Look Back – How many past weeks do we need in order to predict next week’s v
 We compared our models to a naïve predictor which predicts next week’s closing value
 based on the average weekly gain – g of the Nasdaq:
 
-p_n=t_(n-1)*g
-
+![image](https://user-images.githubusercontent.com/66019798/124433542-88c10880-dd7b-11eb-9f53-d8ab60e99ae6.png)
 # File name	Purpose
 | File Name        | Purpose           |
 | ---------------- |:-----------------:|
@@ -64,7 +63,9 @@ p_n=t_(n-1)*g
 # Final results for every model 
 We shall denote, t - the target closing price, p - our prediction for the closing price.
 The loss over a batch will be the MAPE – mean absolute percentage error:
-loss(p,t)=E(|p-t|/t)
+
+![image](https://user-images.githubusercontent.com/66019798/124433596-970f2480-dd7b-11eb-90f4-c2772ec72570.png)
+
 And so:
 
 ![image](https://user-images.githubusercontent.com/66019798/124432375-3af7d080-dd7a-11eb-8da1-7ceffee9b390.png)
