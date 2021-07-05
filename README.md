@@ -60,13 +60,18 @@ We shall denote, t - the target closing price, p - our prediction for the closin
 The loss over a batch will be the MAPE – mean absolute percentage error:
 loss(p,t)=E(|p-t|/t)
 And so:
+
 ![image](https://user-images.githubusercontent.com/66019798/124432375-3af7d080-dd7a-11eb-8da1-7ceffee9b390.png)
 # Best Model's results 
 
 
 ![image](https://user-images.githubusercontent.com/66019798/124432568-71355000-dd7a-11eb-834c-96cbf28bab94.png)
 
+![image](https://user-images.githubusercontent.com/66019798/124432738-9e81fe00-dd7a-11eb-85ae-1c48f23bcd8a.png)
 
+Future prediction (when the last data dates back to June 23rd):
+
+![image](https://user-images.githubusercontent.com/66019798/124432762-a346b200-dd7a-11eb-8d00-22dc167efd4f.png)
 
 # DATA Sources
 Nasdaq 100-values:
