@@ -52,7 +52,7 @@ We compared our models to a naïve predictor which predicts next week’s closin
 based on the average weekly gain – g of the Nasdaq:
 
 ![image](https://user-images.githubusercontent.com/66019798/124433684-b443f300-dd7b-11eb-9485-675c95bd5469.png)
-# File name	Purpose
+# Files and Usage
 | File Name        | Purpose           |
 | ---------------- |:-----------------:|
 | Prediction_FED.ipynb | Main code file including all the projects results|
@@ -60,6 +60,8 @@ based on the average weekly gain – g of the Nasdaq:
 | utils.py         | Loading the data, declaring project's models,models training, declaring obective for optuna and printing functions  | 
 | studies          | Optunas' studies results |
 | input            | The data we used for our project which includes Nasdaq-100 index values and the FED assets|  
+
+in order to run using existing studies one can run Prediction_FED.ipynb. You can also run optuna_search.py in order to create a new study, and adjust parameters within it.
 # Final results for every model 
 We shall denote, t - the target closing price, p - our prediction for the closing price.
 The loss over a batch will be the MAPE – mean absolute percentage error:
