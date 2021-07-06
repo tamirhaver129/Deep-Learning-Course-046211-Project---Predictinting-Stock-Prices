@@ -55,7 +55,7 @@ based on the average weekly gain – g of the Nasdaq:
 # File name	Purpose
 | File Name        | Purpose           |
 | ---------------- |:-----------------:|
-| Prediction_FED.ipynb | Main code file including all the projects results results  |
+| Prediction_FED.ipynb | Main code file including all the projects results|
 | optuna_search.py | Hyper parameters tuning    |
 | utils.py         | Loading the data, declaring project's models,models training, declaring obective for optuna and printing functions  | 
 | studies          | Optunas' studies results |
